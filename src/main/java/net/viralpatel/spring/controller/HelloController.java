@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
+//Modified Code by Rahul
 public class HelloController {
 
 	@GetMapping("/hello")
@@ -12,6 +13,6 @@ public class HelloController {
 
 		model.addAttribute("name", "John Doe");
 
-		return "welcome";
+		return "welcome From Rahul";
 	}
 }
