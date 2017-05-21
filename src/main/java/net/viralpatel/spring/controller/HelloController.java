@@ -14,6 +14,6 @@ public class HelloController {
 
 		model.addAttribute("name", "John Doe");
 
-		return "welcome From Rahul ";
+		return "welcome From Rahul using Jenkins";
 	}
 }
